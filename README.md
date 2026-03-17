@@ -1,27 +1,26 @@
-# 🚀 AI Research Assistant
+# 🚀 Multi-Tool RAG AI Research Assistant with Cross-Encoder Reranking
 
-An AI-powered Research Assistant that provides intelligent, context-aware responses using LLMs, agent workflows, and memory.
+An advanced AI research assistant that combines **Retrieval-Augmented Generation (RAG)** with **multi-tool agents** to deliver accurate, context-aware answers from both web and document sources.
+
+This system enhances traditional RAG pipelines by introducing a **cross-encoder reranking layer**, significantly improving retrieval relevance and reducing hallucinations in LLM responses.
 
 ---
 
-## 📌 Features
+## 🔥 Key Highlights
 
-- 🔍 LLM-based Question Answering  
-- 🧠 Short-term Memory (last interactions)  
-- ⚡ Agent-based architecture  
-- 🌐 Interactive UI (Streamlit / Gradio)  
-- 🔄 Extensible (LangGraph-ready design)  
-- 🧪 Unit & Integration Testing  
-- 📊 Logging, Retry & Exception Handling  
-
+- 🔍 Hybrid Retrieval: Combines **vector search (FAISS)** with **cross-encoder reranking**
+- 🌐 Multi-Tool Agent: Supports **web search + document retrieval**
+- 🧠 Context-Aware Responses using **LLMs**
+- ⚡ Optimized for **accuracy vs latency trade-off**
+- 💬 Interactive UI with **Streamlit**
 
 ---
 
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/cheerlaminusri/AI-Research-Assistant.git
-cd AI-Research-Assistant
+git clone https://github.com/cheerlaminusri/Multi-tool-rag-ai-research-assistant.git
+cd Multi-tool-rag-ai-research-assistant
 
 python -m venv venv
 
